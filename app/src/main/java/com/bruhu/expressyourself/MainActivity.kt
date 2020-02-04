@@ -17,5 +17,8 @@ class MainActivity : AppCompatActivity() {
 
         age = currentYear - yearOfBirth
         Log.i("info", "$age")
+
+        currentYear ++
+        Log.i("info", "$name was born in $yearOfBirth and is $age years old")
     }
 }
