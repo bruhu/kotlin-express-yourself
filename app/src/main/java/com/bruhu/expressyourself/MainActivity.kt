@@ -23,8 +23,8 @@ class MainActivity : AppCompatActivity() {
         Log.i("info", "$name was born in $yearOfBirth and is $age years old")
 
         // Making decisions with when
-        var rating: Int = 1
-        rating ++
+        var rating: Int = 4
+        // rating ++
         when (rating) {
             1 -> Log.i("Oh dear! Rating = ", "$rating stars")
             2 -> Log.i("Not good! Rating = ", "$rating stars")
