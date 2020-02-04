@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         Log.i("info", "$age")
 
         currentYear ++
+        // string template
         Log.i("info", "$name was born in $yearOfBirth and is $age years old")
     }
 }
